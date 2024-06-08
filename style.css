@@ -1,0 +1,75 @@
+body , html{
+    min-height:100vh;
+    min-width:100vw;
+    margin:0;
+    padding:0;
+    background: hsl(47, 88%, 63%);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-family: "Figtree", sans-serif;
+  font-style: normal;
+  }
+  .container{
+    display:flex;
+    flex-direction:column;
+    padding:15px;
+    width:300px;
+    border-radius:1vw;
+    border:1px solid black;
+    background:white;
+    gap:0.75em;
+    cursor:pointer;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+  }
+  .learning{
+    background:hsl(47, 88%, 63%);
+    width:max-content;
+    border-radius:0.3em;
+    padding:0.5em;
+    font-weight:800;
+
+  }
+  .svgImg{
+    width:100%;
+  }
+  .lastPart{
+    display:flex;
+    align-items:center;
+    gap:15px;
+  }
+  .imgpfp{
+    height:50px;
+    width:50px;
+    object-fit:contain;
+  }
+  h1{
+    margin:0;
+    padding:0;
+    font-size:1.5rem;
+    font-weight:800;
+  }
+  h1:hover{
+    color: hsl(47, 88%, 63%);
+  }
+  p{
+    margin:0;
+    padding:0;
+  }
+  .imgsvg{
+    width:100%;
+  }
+  @media only screen and (max-width: 600px){
+    .container{
+      width:70vw;
+    }
+    h1{
+      font-size:5.5vw;
+    }
+  }
+  .pseudoFooter{
+    position:fixed;
+    bottom:50px;
+    font-weight:800;
+  }
